@@ -77,3 +77,17 @@
     .credits{
         background:#D7E4C0;
     }
+/*Posaria 480px max com a width per a format mòbil, però amb l'ordinador (almenys el meu)
+no es podria visualitzar els canvis al redimensionar la finestra del navegador.*/
+
+@media all and (max-width: 500px){
+    .menu{
+        flex-direction: column;
+    }
+    .section{
+        flex-direction: column;
+        background: #7e8d64;
+    }
+    .objetos{
+        flex-direction: column;
+    }  

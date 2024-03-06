@@ -77,3 +77,8 @@
     .credits{
         background:#D7E4C0;
     }
+@media all and (max-width: 768px){
+    .section{
+        flex-direction: column;
+        background: #7e8d64;
+    }
