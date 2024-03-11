@@ -11,7 +11,7 @@
 }
 
 .header {
-    background: #F8F4EC;
+    background: #d3d6ce;
     display: flex;
     flex-flow: column nowrap;
 }
@@ -40,7 +40,7 @@
             background: white;
         }
 .section {
-    background: #F8F4EC;
+    background: #d3d6ce;
     display: flex;
 
 }
@@ -71,7 +71,7 @@
         }
 
 .footer {
-    background: #F8F4EC;
+    background: #d3d6ce;
 
 }
     .credits{
