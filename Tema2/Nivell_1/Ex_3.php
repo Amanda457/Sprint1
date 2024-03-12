@@ -26,6 +26,29 @@ echo "El doble de la variant n és: ".$n * $doble."<br>";
 echo "El doble de la variant m és: ".$m * $doble."<br>";
 
 echo "La suma de totes les variables dona el resultat de: " . ($x+$y+$n+$m) . "<br>";
-echo "El producte de totes les variables dona el resultat de: " . $x*$y*$n*$m .  "<br>";
+echo "El producte de totes les variables dona el resultat de: " . $x*$y*$n*$m .  "<br><br>";
 
+function calculadora ($num1, $num2, $operator){
+
+switch ($operator){
+    case "+": 
+        echo "La suma de $num1 i de $num2 és igual a: " . $num1 + $num2 . "<br>";
+        break;
+    case "-": 
+        echo "La resta de $num1 i de $num2 dona un total de: " . $num1 - $num2 . "<br>";
+        break;    
+    case "*": 
+        echo "La multiplicació de $num1 i $num2 és igual a: " . $num1 * $num2 . "<br>";
+        break;
+    case "/": 
+        echo "La divisió entre $num1 i $num2 dona el resultat de: " . $num1 / $num2 . "<br>";
+        break;
+}
+
+}
+//Exemple de funcionament:
+calculadora(2, 3, "-");
+calculadora(8, 12, "*");
+calculadora(20, 5, "+");
+calculadora(40, 8, "/");
 ?>
