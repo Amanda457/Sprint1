@@ -28,7 +28,7 @@ echo "El doble de la variant m és: ".$m * $doble."<br>";
 echo "La suma de totes les variables dona el resultat de: " . ($x+$y+$n+$m) . "<br>";
 echo "El producte de totes les variables dona el resultat de: " . $x*$y*$n*$m .  "<br><br>";
 
-function calculadora ($num1, $num2, $operator){
+function calcular (int $num1, int $num2, string $operator): void {
 
 switch ($operator){
     case "+": 
