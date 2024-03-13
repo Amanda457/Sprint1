@@ -40,4 +40,14 @@ function contiene(array $paraules, string $caracter) : void {
 contiene ($paraules, "a");
 contiene ($paraules, "o");
 contiene ($paraules, "l");
+
+echo "<h2> Exercici 4 </h2>";
+
+$me = array ("Name"=> "Amanda", "Age"=> 28, "Mail"=> "mandy96lomi@gmail.com", "Food" => "Sushi");
+
+foreach ($me as $x => $y) {
+    echo "$x: $y <br>";
+  }
+  
+
 ?>
