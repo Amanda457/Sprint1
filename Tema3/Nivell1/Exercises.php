@@ -15,4 +15,29 @@ $x = array_values($x);
 echo var_dump($x);
 */
 echo "La mida del array és de: ".count($x)."<br>";
+
+echo "<h2> Exercici 3 </h2>". PHP_EOL;
+
+$paraules= array ("hola","pala", "llengua", "ratlla");
+$caracter;
+
+function contiene(array $paraules, string $caracter) : void {
+   
+    $result = 0;
+        foreach ($paraules as $paraula) {
+            $place= strpos($paraula, $caracter);
+
+             if ($place === false){
+                 $result+=1;
+               } }
+              if ($result !== 0){
+                  echo "False<br>";
+              } else {
+                   echo "True<br>";
+                 }
+        }
+   
+contiene ($paraules, "a");
+contiene ($paraules, "o");
+contiene ($paraules, "l");
 ?>
