@@ -9,12 +9,4 @@ $cercle = new Circle(0,0);//El cercle no té amplada ni alçada, però necessite
 $cercle->set_radio(12);
 $cercle->calcularArea();
 
-
-
-
-
-
-
-
-
 ?>

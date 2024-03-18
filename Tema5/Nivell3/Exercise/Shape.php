@@ -8,9 +8,6 @@ abstract class Shape{
         $this->alt = $alt;
 
     }
-    function __construct_circle(){
-    
-    }
 
     abstract function calcularArea();
 
